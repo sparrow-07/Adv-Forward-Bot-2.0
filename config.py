@@ -12,7 +12,7 @@ class Config:
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Forward_data')
     SESSION = os.environ.get("SESSION", "AQAkW83eE3j1Zk-4jGShL7Kd-DeSJBpVhWqqWH1WeAq4fgmWEpw6R3xBiJSqZnfTdEeWOD2j5J314qfaQMu76iFsep5WX4dcwcvcIOEJy5s-xTZ3xWwvUJ4ZmTOImGX0HWrOhfu056x_j7t4e-fi85FyZt_jEpkODswzk2Vw43QuDtSaNpPpnv1hJlXVkEaq0fvtOdEjx2QUjHUvBrBK0PCQjUOmheG8Ha4-mYT3nZNYy-v9BhyNFytm-u4tIjDP6mv0IisXVIslQivm9_ScCOXiAFb3DfLbQaPUfrl1NU4vbA_RAerImUCNa4YBTk1xIo7FIzCD_cVRGS4NtdGws1lEAAAAAVlFNcEA")
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", -1001830106391))
-    BOT_USERNAME= os.environ.get("BOT_USERNAME", Auto_Frwd_Robot)
+    BOT_USERNAME= os.environ.get("BOT_USERNAME", 'Auto_Frwd_Robot')
 
 
 def LOGGER(name: str) -> logging.Logger:
